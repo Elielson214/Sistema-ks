@@ -1,0 +1,60 @@
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Roboto','Segoe UI',sans-serif;background:#eef2f7;min-height:100vh;color:#1a1a2e}
+.contatos-container{max-width:1400px;margin:0 auto;padding:20px;min-height:100vh;background:#eef2f7}
+.header{display:flex;justify-content:space-between;align-items:center;background:#fff;border-radius:12px;padding:12px 24px;margin-bottom:20px;box-shadow:0 2px 8px rgba(0,0,0,0.06)}
+.logo-area{display:flex;align-items:center;gap:12px}
+.logo-icon{width:40px;height:40px;background:#1976d2;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:18px;color:#fff}
+.logo-text{font-size:20px;font-weight:500;color:#1a1a2e}
+.user-area{display:flex;align-items:center;gap:16px}
+.user-email{font-size:14px;color:#666}
+.btn-sair{background:transparent;border:1px solid #ddd;color:#333;padding:6px 16px;border-radius:6px;cursor:pointer;font-size:14px;transition:all 0.2s}
+.btn-sair:hover{background:#f5f5f5}
+.card-principal{background:#fff;border-radius:12px;padding:24px;box-shadow:0 2px 12px rgba(0,0,0,0.06)}
+.search-bar{display:flex;gap:12px;margin-bottom:16px}
+.search-bar input{flex:1;padding:12px 16px;border-radius:6px;border:1px solid #e0e0e0;background:#fafafa;color:#333;font-size:15px;outline:none;transition:border-color 0.2s}
+.search-bar input::placeholder{color:#999}
+.search-bar input:focus{border-color:#1976d2;background:#fff}
+.btn-buscar{padding:12px 28px;background:#1976d2;border:none;border-radius:6px;color:#fff;font-size:15px;font-weight:500;cursor:pointer;transition:all 0.2s;box-shadow:0 2px 6px rgba(25,118,210,0.2)}
+.btn-buscar:hover{background:#1565c0;box-shadow:0 4px 12px rgba(25,118,210,0.3)}
+.action-bar{display:flex;gap:12px;margin-bottom:24px;flex-wrap:wrap}
+.btn-escuro{display:flex;align-items:center;gap:8px;padding:10px 20px;background:#fff;border:1px solid #e0e0e0;border-radius:6px;color:#333;font-size:14px;cursor:pointer;transition:all 0.2s}
+.btn-escuro:hover{background:#f5f5f5}
+.birthday-wrapper{position:relative}
+.btn-birthday{border:1px solid #e91e63;color:#e91e63}
+.btn-birthday:hover{background:#e91e63;color:#fff}
+.birthday-balloon{position:absolute;top:calc(100% + 8px);left:0;min-width:280px;background:#fff;border:1px solid #e0e0e0;border-radius:12px;padding:16px;box-shadow:0 8px 24px rgba(0,0,0,0.12);z-index:100}
+.birthday-balloon h4{color:#e91e63;font-size:15px;margin-bottom:12px;border-bottom:1px solid #f0f0f0;padding-bottom:8px}
+.birthday-balloon ul{list-style:none;padding:0;margin:0 0 12px 0}
+.birthday-balloon li{padding:8px 0;font-size:14px;border-bottom:1px solid #f5f5f5}
+.btn-fechar{background:#e91e63;color:#fff;border:none;border-radius:6px;padding:8px 16px;font-size:13px;cursor:pointer;transition:background 0.2s;width:100%}
+.btn-fechar:hover{background:#c2185b}
+.master-toggle{display:flex;justify-content:flex-end;margin-bottom:16px}
+.master-toggle label{display:flex;align-items:center;gap:8px;font-size:13px;color:#333;background:#f5f5f5;padding:6px 14px;border-radius:6px;cursor:pointer}
+.master-toggle input{width:18px;height:18px;accent-color:#1976d2}
+.formulario{display:flex;flex-direction:column;gap:20px}
+.secao{background:#fafafa;border-radius:8px;padding:20px;border:1px solid #eee}
+.secao-titulo{font-size:15px;font-weight:500;color:#1976d2;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid #e8e8e8}
+.grid-2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.grid-3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px}
+.grid-4{display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:16px}
+.grid-5{display:grid;grid-template-columns:1fr 1fr 1fr 1fr 1fr;gap:16px}
+.campo{display:flex;flex-direction:column;gap:4px}
+.campo label{font-size:12px;font-weight:500;color:#555;text-transform:none;letter-spacing:0}
+.campo input,.campo select{width:100%;padding:10px 12px;border-radius:4px;border:1px solid #e0e0e0;background:#fff;color:#333;font-size:14px;outline:none;transition:border-color 0.2s}
+.campo input:focus,.campo select:focus{border-color:#1976d2}
+.campo input::placeholder{color:#aaa}
+.campo select option{background:#fff;color:#333}
+.campo-botao{justify-content:flex-end}
+.btn-adicionar{padding:10px 20px;background:#1976d2;border:none;border-radius:4px;color:#fff;font-size:14px;font-weight:500;cursor:pointer;transition:all 0.2s;white-space:nowrap}
+.btn-adicionar:hover{background:#1565c0}
+.tabela-contratos{width:100%;border-collapse:collapse;font-size:13px}
+.tabela-contratos thead th{background:#f5f5f5;color:#555;padding:10px 12px;text-align:left;font-weight:500;border-bottom:2px solid #e0e0e0;white-space:nowrap}
+.tabela-contratos tbody td{padding:10px 12px;border-bottom:1px solid #f0f0f0;color:#333}
+.tabela-contratos tbody tr:hover{background:#fafafa}
+.btn-download{background:#1976d2;color:#fff;border:none;border-radius:4px;padding:6px 14px;font-size:13px;cursor:pointer;transition:all 0.2s}
+.btn-download:hover{background:#1565c0}
+.btn-salvar-area{display:flex;justify-content:flex-end;margin-top:8px}
+.btn-salvar{padding:14px 40px;background:#1976d2;border:none;border-radius:6px;color:#fff;font-size:16px;font-weight:500;cursor:pointer;transition:all 0.2s;box-shadow:0 2px 8px rgba(25,118,210,0.2)}
+.btn-salvar:hover{background:#1565c0;box-shadow:0 4px 16px rgba(25,118,210,0.3)}
+@media(max-width:1024px){.grid-5{grid-template-columns:1fr 1fr 1fr}.grid-4{grid-template-columns:1fr 1fr}}
+@media(max-width:768px){.grid-3,.grid-4,.grid-5,.grid-2{grid-template-columns:1fr}.header{flex-direction:column;gap:12px;text-align:center}.action-bar{flex-direction:column}.tabela-contratos{font-size:12px;overflow-x:auto;display:block}.birthday-balloon{left:auto;right:0;min-width:240px}}
