@@ -1,5 +1,6 @@
 // ===== src/context/AuthContext.tsx =====
-import { createContext, useContext, useState, useMemo, ReactNode } from "react";
+import { createContext, useContext, useState, useMemo } from "react";
+import type { ReactNode } from "react";
 
 const API_URL = "http://localhost:3000";
 
