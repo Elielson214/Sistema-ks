@@ -30,7 +30,7 @@ async function login(email: string, senha: string) {
 const res = await fetch(`${API_URL}/login`, {
 method: "POST",
 headers: { "Content-Type": "application/json" },
-body: JSON.stringify({ email, senha }),
+body: JSON.stringify({ email, password: senha }), // CORRIGIDO: usa "password", não "senha"
 });
 
 if (!res.ok) {
